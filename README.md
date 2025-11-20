@@ -25,3 +25,5 @@ Custom Keybinding for the widget:
 ```bash
 bindd = SUPER, E, Widget, exec, ~/.config/eww/./launch.sh -a
 ```
+### Note: 
+**I have taken lots of help from other peoples' repos and configs!** This is just a backup of my own setup in case I ever lose it.
