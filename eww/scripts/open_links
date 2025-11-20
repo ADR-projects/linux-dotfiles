@@ -1,0 +1,14 @@
+#!/bin/bash
+
+## Open links in firefox
+
+cmd="chromium --new-tab"
+cmdyt="brave"
+
+if [[ "$1" == "--gh" ]]; then
+	${cmd} "https://github.com"
+
+elif [[ "$1" == "--yt" ]]; then
+	${cmdyt} "https://youtube.com"
+
+fi

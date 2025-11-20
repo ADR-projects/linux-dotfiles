@@ -1,0 +1,21 @@
+sw_volume: 25
+audio_device_state:1:PipeWire Sound Server
+state: pause
+current: 2
+time: 3.29
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:ENHYPEN-Bad Desire (With Or Without You).mp3
+1:ENHYPEN-BITE ME.mp3
+2:ENHYPEN-Brought The Heat Back.mp3
+3:ENHYPEN-CRIMINAL LOVE.mp3
+4:ENHYPEN-BITE ME.mp3
+5:Mitski-Francis Forever.mp3
+playlist_end

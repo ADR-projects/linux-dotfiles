@@ -1,0 +1,169 @@
+@import "../omarchy/current/theme/waybar.css";
+@define-color base #242635;
+@define-color border #80A0E0;
+@define-color shadow rgb(30, 32, 48);
+
+* {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: 'JetBrainsMono Nerd Font';
+  font-size: 12px;
+}
+
+.modules-left {
+  margin-left: 2px;
+  margin-top: 2px;
+  border-radius: 15px;
+  padding: 2px 6px;
+  padding-bottom: 2px;
+  color: rgb(252, 252, 252);
+}
+
+#custom-sep {
+  color: @border;
+  margin: 0 6px;
+
+}
+
+.modules-center {
+  margin-left: 8px;
+  margin-top: 2px;
+  border-radius: 8px;
+  padding: 1px 6px;
+  background: #f75dba;
+  background: linear-gradient(52deg, rgb(247, 102, 179) 0%, rgb(255, 254, 227) 53%, rgb(244, 134, 94) 100%);
+  color: rgb(0, 0, 0);
+  border: 2px rgba(0, 0, 0, 0.542) solid;
+}
+
+.modules-right {
+  margin-left: 5px;
+  margin-top: 0px;
+  border-radius: 15px;
+  padding: 2px 8px;
+  margin-right: 5px;
+  padding-bottom: 2px;
+  color: rgb(252, 252, 252);
+}
+
+#workspaces {
+  background-color: alpha(@base, 0);
+  border-radius: 10px;
+  border: 2px solid @border;
+  background-clip: padding-box;
+  padding: 3px;
+}
+
+#workspaces button {
+  all: initial;
+  padding: 0 6px;
+  padding-bottom: 3px;
+  margin: 0 1px;
+  min-width: 8px;
+  background-color: @foreground;
+  border-radius: 2px;
+  color: @background;
+}
+
+#workspaces button.empty {
+  opacity: 0.5;
+}
+
+#group-tray-expander,
+#custom-expand-icon,
+#tray,
+#cpu,
+#battery,
+#network,
+#bluetooth,
+#custom-omarchy,
+#custom-screenrecording-indicator,
+#custom-update,
+#custom-temperature,
+#pulseaudio,
+#memory {
+  min-width: 12px;
+  margin: 3px 3px;
+  font-size: 15px;
+  background-color: alpha(@base, 0.9);
+  padding: 1px 8px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px 1px alpha(@shadow, 0.7);
+  border: 2px solid @border;
+  background-clip: padding-box;
+}
+
+#custom-temperature,
+#pulseaudio,
+#memory {
+  font-size: 12px;
+}
+
+#custom-temperature:hover,
+#memory:hover,
+#cpu:hover,
+#bluetooth:hover,
+#network:hover,
+#pulseaudio:hover,
+#battery:hover,
+#custom-omarchy:hover,
+#custom-files:hover,
+#custom-git:hover, #custom-browser:hover {
+  background-color: @foreground;
+  color: @background;
+}
+
+#custom-expand-icon {
+  margin-right: 7px;
+}
+
+tooltip {
+  padding: 1px;
+  border-radius: 10px;
+  background-color: @base;
+  border: 1px solid @border;
+}
+
+#custom-update {
+  font-size: 12px;
+}
+
+#custom-omarchy {
+  font-size: 14px;
+}
+
+#clock {
+  margin-left: 8.75px;
+  font-size: 13px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  margin-left: 8.75px;
+  font-size: 12px;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #a55555;
+  font-size: 15px;
+}
+
+#custom-files,
+#custom-git, #custom-browser, #custom-sep, #group-tray-expander {
+  font-size: 18px;
+  color: @foreground;
+}
+
+#custom-username {
+  font-weight: 900;
+  font-size: 14px;
+}
+#custom-git{
+  padding: 1px 8px;
+}

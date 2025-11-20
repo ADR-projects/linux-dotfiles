@@ -1,0 +1,27 @@
+#!/bin/bash
+
+set_face() {
+    eww update mochiFace="$1"
+}
+
+reset_later() {
+    sleep 4
+    set_face "$HOME/.config/eww/images/neutral.jpg"
+}
+
+case "$1" in
+    --c)
+        set_face "$HOME/.config/eww/images/happy.jpg"
+        reset_later &  # this is run in the background
+        exit 0         # EXIT IMMEDIATELY
+        ;;
+    --s)
+        set_face "$HOME/.config/eww/images/surprised.jpg"
+        reset_later &
+        exit 0
+        ;;
+    --n)
+        set_face "$HOME/.config/eww/images/neutral.jpg"
+        exit 0
+        ;;
+esac

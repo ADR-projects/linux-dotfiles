@@ -1,0 +1,174 @@
+/** Global *******************************************/
+*{
+	all: unset;
+	font-family: feather;
+	font-family: Iosevka;
+}
+
+/** Background **************************************
+.bg {
+	background-image: url("images/bg.png");
+	background-color: #474D59;
+	opacity: 1;
+} **/
+
+/** Generic window ***********************************/
+.genwin {
+	background-color: #1c212a;
+	border-radius: 16px;
+	border: solid 1px #8FBCBB;
+}
+
+/** Profile ******************************************/
+.face, .album_art {
+	background-size: 200px;
+	min-height: 200px;
+	min-width: 200px;
+	margin: 65px 0px 0px 0px;
+	border-radius: 100%;
+	border: solid 1px #e7ad8b;
+}
+
+.fullname {
+	color: #D46389;
+	font-size : 30px;
+	font-weight : bold;
+}
+
+.username {
+	color: #8FBCBB;
+	font-size : 25px;
+	font-weight : bold;
+	margin : -25px 0px 0px 0px;
+}
+/** Clock ********************************************/
+.time_hour, .time_min {
+	color: #81A1C1;
+	font-size : 70px;
+	font-weight : bold;
+}
+.time_hour {
+	margin : 8px -8px 0px 20px;
+}
+.time_min {
+	margin : 0px 0px 10px 0px;
+}
+
+.time_mer {
+	color: #A3BE8C;
+	font-size : 40px;
+	font-weight : bold;
+	margin : 20px 5px 0px 0px;
+}
+
+.time_day {
+	color: #EBCB8B;
+	font-size : 30px;
+	font-weight : normal;
+	margin : 0px 5px 20px -20px;
+}
+
+/** Uptime ********************************************/
+.icontimer {
+	color: #B48EAD;
+	font-size : 90px;
+	font-weight : normal;
+}
+
+.uphour {
+	color: #E5E9F0;
+	font-size : 35px;
+	font-weight : bold;
+}
+
+.upmin {
+	color: #E5E9F0;
+	font-size : 25px;
+	font-weight : bold;
+}
+/** Music ***************************************/
+.album_art {
+	background-size: 240px;
+	min-height: 240px;
+	min-width: 240px;
+	margin: 20px;
+	border-radius: 14px;
+}
+
+.song {
+	color: #8FBCBB;
+	font-size : 27px;
+	font-weight : bold;
+	margin : 35px 0px 0px 0px;
+}
+
+.artist {
+	color: #EBCB8B;
+	font-size : 17px;
+	font-weight : normal;
+	margin : 0px 0px 15px 0px;
+}
+
+.btn_prev, .btn_play, .btn_next {
+	font-family: Iosevka Nerd Font;
+}
+.btn_prev {
+	color: #EBCB8B;
+	font-size : 32px;
+	font-weight : normal;
+}
+.btn_play {
+	color: #A3BE8C;
+	font-size : 48px;
+	font-weight : bold;
+}
+.btn_next {
+	color: #EBCB8B;
+	font-size : 32px;
+	font-weight : normal;
+}
+
+.music_bar scale trough highlight {
+	all: unset;
+	background-color: #B48EAD;
+	border-radius: 8px;
+}
+.music_bar scale trough {
+	all: unset;
+	background-color: #3A404C;
+	border-radius: 8px;
+	min-height: 20px;
+	min-width: 310px;
+	margin : 10px 0px 0px 0px;
+}
+/** YT and GitHub*/
+.iconweb, .yticonweb {
+	color: #FFFFFF;
+	font-family: Iosevka Nerd Font;
+	font-size : 60px;
+	font-weight : normal;
+	margin-left: -17px;
+	border-radius: 10px;
+}
+.yticonweb {
+	font-size: 55px;
+	margin-right: -25px;
+}
+.youtube, .github {
+	background-color: #DF584E;
+	border-radius: 10px;
+	font-size: 40px;
+	margin: 0 0px 0 0px;
+	border: solid 2px #A3BE8C;
+}
+.youtube {
+	background-color: #DF584E;
+}
+.github {
+	background-color: #24292E;
+}
+
+.mochi {
+	background-image: url('./images/neutral.jpg');
+	border-radius: 8px;
+}
