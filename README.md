@@ -2,10 +2,9 @@
 
 My collection of shell configs, scripts, and stylesheets. All the quirks I added to my omarchy setup!
 
-<!-- Badges -->
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](https://www.linux.org/)
-[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
-[![Omarchy](preview/OMARCHY-black.svg)](https://omarchy.org/)
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white">
+<img src="https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white">
+<img src="preview/OMARCHY-black.svg">
 
 
 ## Screenshots
@@ -25,5 +24,7 @@ Custom Keybinding for the widget:
 ```bash
 bindd = SUPER, E, Widget, exec, ~/.config/eww/./launch.sh -a
 ```
-### Note: 
-**I have taken lots of help from other peoples' repos and configs!** This is just a backup of my own setup in case I ever lose it.
+## Note: 
+**I have taken lots of help from other peoples' repos and configs!** 
+
+This is just a backup of my own setup in case I ever lose it.
