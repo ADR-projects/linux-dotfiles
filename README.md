@@ -17,3 +17,11 @@ My collection of shell configs, scripts, and stylesheets. All the quirks I added
 git clone https://github.com/ADR-projects/omarchy-dotfiles.git
 cd omarchy-dotfiles
 ```
+
+## Bindings
+
+Custom Keybinding for the widget:
+
+```bash
+bindd = SUPER, E, Widget, exec, ~/.config/eww/./launch.sh -a
+```
