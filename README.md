@@ -15,8 +15,8 @@ My collection of shell configs, scripts, and stylesheets. All the quirks I added
 ## Installation
 
 ```bash
-git clone https://github.com/ADR-projects/omarchy-dotfiles.git
-cd omarchy-dotfiles
+git clone https://github.com/ADR-projects/linux-dotfiles.git
+cd linux-dotfiles
 ```
 
 ## Bindings
@@ -27,7 +27,8 @@ Custom Keybinding for the widget:
 bindd = SUPER, E, Widget, exec, ~/.config/eww/./launch.sh -a
 ```
 ## Note: 
-**I have taken lots of help from other peoples' repos and configs.** 
+**I have taken lots of help from other peoples' repos and configs.**
+
 **Here are some such repos:-**
 - <a href="https://github.com/BreadOnPenguins/dots/blob/master/.config/wal/templates/pywal16.ron">rmpc theme</a>
 - <a href="https://github.com/adi1090x/widgets/tree/main/eww/dashboard">eww dashboard</a>
