@@ -1,4 +1,4 @@
-# omarchy-dotfiles
+# linux-dotfiles
 
 My collection of shell configs, scripts, and stylesheets. All the quirks I added to my omarchy setup!
 
@@ -10,7 +10,7 @@ My collection of shell configs, scripts, and stylesheets. All the quirks I added
 ## Screenshots
 <img src="preview/ss.png">
 <img src="preview/ssrmpc.png">
-<img src="/preview/todo2.png" width="400" height="400"><img src="/preview/todo1.png" width="400" height="400">
+<img src="/preview/todo1.png" width="1010" height="700">
 
 ## Installation
 
