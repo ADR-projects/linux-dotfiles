@@ -26,6 +26,9 @@ Custom Keybinding for the widget:
 bindd = SUPER, E, Widget, exec, ~/.config/eww/./launch.sh -a
 ```
 ## Note: 
-**I have taken lots of help from other peoples' repos and configs!** 
+**I have taken lots of help from other peoples' repos and configs.** 
+**Here are some such repos:-**
+- <a href="https://github.com/BreadOnPenguins/dots/blob/master/.config/wal/templates/pywal16.ron">rmpc theme</a>
+- <a href="https://github.com/adi1090x/widgets/tree/main/eww/dashboard">eww dashboard</a>
 
-This is just a backup of my own setup in case I ever lose it.
+
