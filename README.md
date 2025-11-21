@@ -9,6 +9,7 @@ My collection of shell configs, scripts, and stylesheets. All the quirks I added
 
 ## Screenshots
 <img src="preview/ss.png">
+<img src="preview/ssrmpc.png">
 
 ## Installation
 
